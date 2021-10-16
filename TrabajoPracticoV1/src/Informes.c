@@ -8,8 +8,9 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <string.h>
-#include "ArrayEmployees.h"
 #include "Informes.h"
+
+#include "BibliotecaEmpleados.h"
 #define EMPTY 0
 #define FULL 1
 

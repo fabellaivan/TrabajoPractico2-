@@ -7,6 +7,12 @@
 
 #ifndef INFORMES_H_
 #define INFORMES_H_
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+#include <string.h>
+#include "Informes.h"
+#include "BibliotecaEmpleados.h"
 /// @fn void MostrarTodosLosEmpleados(eEmpleado[], ePuestoTrabajo[], int, int)
 /// @brief Prepara entorno para mostrar los empleados
 ///
@@ -49,4 +55,5 @@ void AcumuladorDeSueldos(eEmpleado lista[], int largo, float* acumuluado,int* un
 /// @param promedio Recibe el promedio para comparar
 /// @param cantidadMayorAlPromedio Devuelve por referencia cuantos ganan mas que el promedio
 void EmpleadosConMayorSueldoDelPromedio(eEmpleado lista[], int largo,int promedio,int* cantidadMayorAlPromedio);
+
 #endif /* INFORMES_H_ */

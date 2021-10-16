@@ -13,7 +13,8 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <string.h>
-#include "ArrayEmployees.h"
+
+#include "BibliotecaEmpleados.h"
 #include "Informes.h"
 /// @fn int myGets(char*, int)
 /// @brief Valida el largo de la cadena
